@@ -81,6 +81,15 @@
                 <p>Quản lý đơn hàng</p>
               </a>
             </li>
+
+            <li class="nav-item">
+              <a href="{{ route('admin.comment.index') }}"
+                class="nav-link {{ request()->is(['admin/comment*']) ? 'active' : '' }}">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Quản lý đánh giá</p>
+              </a>
+            </li>
+
           </ul>
     </nav>
   </div>

@@ -14,11 +14,7 @@ use \DB;
 
 class BillController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index(Request $request)
     {
         $bill = Bill::orderby('id', 'DESC')->paginate(10);
@@ -37,11 +33,7 @@ class BillController extends Controller
         return view('home.layouts_home.billdetail', compact('billdetail'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create(Request $request)
     {
 
@@ -64,10 +56,13 @@ class BillController extends Controller
             Product::where('id', '=', $row['id'])->update(['sold' => ($product->sold + $row['quantity'])]);
 
         }
+        $request->session()->forget('cart');
+        $request->session()->forget('shipping_address');
+        $request->session()->forget('ordertotal');
 
 
         if ($request->payment == 1) {
-            return redirect()->route('home');
+            return redirect()->route('billuser');
         } else {
             $this->vnpay($request);
         }
@@ -96,7 +91,7 @@ class BillController extends Controller
         $vnp_TmnCode = "SRLCAGQW";//Mã website tại VNPAY
         $vnp_HashSecret = "LVXYSRMISPXSJACLXEEZGEBAEEJWLLGY"; //Chuỗi bí mật
 
-        $vnp_TxnRef = 1; //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
+        $vnp_TxnRef = time() . '-' . mt_rand(1000, 9999); //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
         $vnp_OrderInfo = 1;
         $vnp_OrderType = 1;
         $vnp_Amount = ($request->session()->get('ordertotal') + 100000) * 100;
@@ -159,6 +154,5 @@ class BillController extends Controller
         header('Location: ' . $vnp_Url);
         die();
 
-        // vui lòng tham khảo thêm tại code demo
     }
 }

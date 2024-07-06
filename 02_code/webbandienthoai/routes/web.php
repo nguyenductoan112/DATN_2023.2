@@ -29,16 +29,9 @@ Route::get('billdelete/{id}', 'Admin\BillController@destroy')->name('billdelete'
 Route::get('my/{id}', 'Admin\UserController@my')->name('my');
 Route::put('myupdate/{id}', 'Admin\UserController@myupdate')->name('myupdate');
 
-Route::get('/comment/{id}', 'Home\CommentController@store')->name('comment');
+Route::post('/comment/{id}', 'Home\CommentController@store')->name('comment');
 
 Route::get('wishlist/{id}', 'Home\HomeController@wishlist')->name('wishlist');
-
-// Route::group([
-//     'middleware' => 'adminMiddleware'],
-//     function(){
-//         Route::get('checkout', 'Home\CheckoutController@index')->name('checkout');
-//     }
-// );
 
 
 Route::get('/admin', function () {
@@ -69,6 +62,10 @@ Route::group(
         Route::resource('product', 'ProductController');
         Route::resource('bill', 'BillController');
         Route::get('billdetail/{id}', 'BillDetailController@index')->name('billdetail.index');
+        // Thêm route cho quản lý comment
+        Route::get('comment', 'CommentController@index')->name('comment.index');
+        Route::patch('comment/{id}/update', 'CommentController@update')->name('comment.update');
+        Route::delete('comment/{id}/destroy', 'CommentController@destroy')->name('comment.destroy');
 
 
 

@@ -73,7 +73,7 @@
                                             <li><a href="{{route('my', Auth::user()->id)}}" title="My account">My
                                                     account</a>
                                             </li>
-                                            <li><a href="{ route('userlogout') }}" title="Logout">Logout</a></li>
+                                            <li><a href="{{ route('userlogout') }}" title="Logout">Logout</a></li>
                                         @endif
                                     </ul>
                                 </div>
@@ -94,54 +94,8 @@
                             <div class="col-lg-9 col-md-9">
                                 <div class="header_right_info">
                                     <div class="search_bar">
-                                        <!-- <form action="#">
-                                            <input placeholder="Search..." type="text">
-                                            <button type="submit"><i class="fa fa-search"></i></button>
-                                        </form> -->
                                     </div>
                                     <div class="shopping_cart">
-                                        <!-- <a href="#"><i class="fa fa-shopping-cart"></i>
-                                            {{(@$cart == null) ? '0 Items' : count($cart) . ' Items'}} <i
-                                                class="fa fa-angle-down"></i></a>
-                                        <div class="mini_cart">
-
-                                            @if(@$cart == null)
-                                            <p style="text-align:center;color:red;">Giỏ hàng trống</p>
-                                            @else
-                                            @foreach($cart as $row)
-
-                                            <div class="cart_item">
-                                                <div class="cart_img">
-                                                    <a href="#"><img src="storage/{{$row['image']}}" alt=""></a>
-                                                </div>
-                                                <div class="cart_info">
-                                                    <a href="#">{{$row['name']}}</a>
-                                                    <span
-                                                        class="cart_price">{{number_format($row['price']) . ' VNĐ'}}</span>
-                                                    <span class="quantity">Qty: {{$row['quantity']}}</span>
-                                                </div>
-                                                <div class="cart_remove">
-                                                    <a title="Remove this item"
-                                                        href="{{route('cartDestroy', $row['id'])}}"><i
-                                                            class="fa fa-times-circle"></i></a>
-                                                </div>
-                                            </div>
-
-                                            @endforeach
-                                            {{-- <div class="shipping_price">
-                                                    <span> Shipping </span>
-                                                    <span> $7.00 </span>
-                                                </div> --}}
-                                            <div class="total_price">
-                                                <span> Total </span>
-                                                <span class="prices"> {{number_format($total) . ' VNĐ'}} </span>
-                                            </div>
-                                            <div class="cart_button">
-                                                <a href="{{route('cart')}}"> Check out</a>
-                                            </div>
-                                            @endif
-                                        </div> 
-                                        -->
                                     </div>
 
                                 </div>

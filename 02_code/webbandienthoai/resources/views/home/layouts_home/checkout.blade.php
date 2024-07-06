@@ -154,7 +154,6 @@
                     <!--header middel end-->
                     <div class="header_bottom">
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-12">
                                 <div class="main_menu_inner">
                                     <div class="main_menu d-none d-lg-block">
@@ -165,194 +164,6 @@
                                                 <li><a href="#">blog</a>
                                                     <div class="mega_menu jewelry">
                                                         <div class="mega_items jewelry">
-                                                            <ul>
-                                                                <li><a href="https://cellphones.com.vn/sforum">blog
-                                                                        details</a></li>
-                                                                <li><a href="https://zalo.me/0386805234">ChatZalo</a>
-                                                                </li>
-                                                                <!-- <li><a href="blog-sidebar.html">blog sidebar</a></li> -->
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><a href="https://www.facebook.com/groups/1023688284409097/">contact
-                                                        us</a></li>
-=======
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="footer_widget">
-                                    <h3>About us</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="footer_widget_contect">
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i>  63 LE VAN LUONG, THANH XUAN, HA NOI</p>
->>>>>>> 3f99687bd7c77520566f1ff5945bef34f7c83874
-
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="mobile-menu d-lg-none">
-                                        <nav>
-                                            <ul>
-                                                <li><a href="#">Home</a>
-                                                    <div>
-                                                        <div>
-                                                            <ul>
-                                                                <li><a href="#">Home 1</a></li>
-                                                                <li><a href="index-2.html">Home 2</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><a href="shop.html">shop</a>
-                                                    <div>
-                                                        <div>
-                                                            <ul>
-                                                                <li><a href="shop-list.html">shop list</a></li>
-                                                                <li><a href="shop-fullwidth.html">shop Full Width
-                                                                        Grid</a></li>
-                                                                <li><a href="shop-fullwidth-list.html">shop Full Width
-                                                                        list</a></li>
-                                                                <li><a href="shop-sidebar.html">shop Right Sidebar</a>
-                                                                </li>
-                                                                <li><a href="shop-sidebar-list.html">shop list Right
-                                                                        Sidebar</a></li>
-                                                                <li><a href="single-product.html">Product Details</a>
-                                                                </li>
-                                                                <li><a href="single-product-sidebar.html">Product
-                                                                        sidebar</a></li>
-                                                                <li><a href="single-product-video.html">Product Details
-                                                                        video</a></li>
-                                                                <li><a href="single-product-gallery.html">Product
-                                                                        Details Gallery</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><a href="#">women</a>
-                                                    <div>
-                                                        <div>
-                                                            <div>
-                                                                <h3><a href="#">Accessories</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Cocktai</a></li>
-                                                                    <li><a href="#">day</a></li>
-                                                                    <li><a href="#">Evening</a></li>
-                                                                    <li><a href="#">Sundresses</a></li>
-                                                                    <li><a href="#">Belts</a></li>
-                                                                    <li><a href="#">Sweets</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <h3><a href="#">HandBags</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Accessories</a></li>
-                                                                    <li><a href="#">Hats and Gloves</a></li>
-                                                                    <li><a href="#">Lifestyle</a></li>
-                                                                    <li><a href="#">Bras</a></li>
-                                                                    <li><a href="#">Scarves</a></li>
-                                                                    <li><a href="#">Small Leathers</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <h3><a href="#">Tops</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Evening</a></li>
-                                                                    <li><a href="#">Long Sleeved</a></li>
-                                                                    <li><a href="#">Shrot Sleeved</a></li>
-                                                                    <li><a href="#">Tanks and Camis</a></li>
-                                                                    <li><a href="#">Sleeveless</a></li>
-                                                                    <li><a href="#">Sleeveless</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div>
-                                                            <div>
-                                                                <a href="#"><img src="assets\img\banner\banner1.jpg"
-                                                                        alt=""></a>
-                                                            </div>
-                                                            <div>
-                                                                <a href="#"><img src="assets\img\banner\banner2.jpg"
-                                                                        alt=""></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><a href="#">men</a>
-                                                    <div>
-                                                        <div>
-                                                            <div>
-                                                                <h3><a href="#">Rings</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Platinum Rings</a></li>
-                                                                    <li><a href="#">Gold Ring</a></li>
-                                                                    <li><a href="#">Silver Ring</a></li>
-                                                                    <li><a href="#">Tungsten Ring</a></li>
-                                                                    <li><a href="#">Sweets</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <h3><a href="#">Bands</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Platinum Bands</a></li>
-                                                                    <li><a href="#">Gold Bands</a></li>
-                                                                    <li><a href="#">Silver Bands</a></li>
-                                                                    <li><a href="#">Silver Bands</a></li>
-                                                                    <li><a href="#">Sweets</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <a href="#"><img src="assets\img\banner\banner3.jpg"
-                                                                        alt=""></a>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </li>
-                                                <li><a href="#">pages</a>
-                                                    <div>
-                                                        <div>
-                                                            <div>
-                                                                <h3><a href="#">Column1</a></h3>
-                                                                <ul>
-                                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                                    <li><a href="portfolio-details.html">single
-                                                                            portfolio </a></li>
-                                                                    <li><a href="about.html">About Us </a></li>
-                                                                    <li><a href="about-2.html">About Us 2</a></li>
-                                                                    <li><a href="services.html">Service </a></li>
-                                                                    <li><a href="my-account.html">my account </a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <h3><a href="#">Column2</a></h3>
-                                                                <ul>
-                                                                    <li><a href="#">Blog </a></li>
-                                                                    <li><a href="blog-details.html">Blog Details </a>
-                                                                    </li>
-                                                                    <li><a href="blog-fullwidth.html">Blog FullWidth</a>
-                                                                    </li>
-                                                                    <li><a href="blog-sidebar.html">Blog Sidebar</a>
-                                                                    </li>
-                                                                    <li><a href="faq.html">Frequently Questions</a></li>
-                                                                    <li><a href="404.html">404</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div>
-                                                                <h3><a href="#">Column3</a></h3>
-                                                                <ul>
-                                                                    <li><a href="contact.html">Contact</a></li>
-                                                                    <li><a href="cart.html">cart</a></li>
-                                                                    <li><a href="checkout.html">Checkout </a></li>
-                                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                                    <li><a href="login.html">Login</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li><a href="#">blog</a>
-                                                    <div>
-                                                        <div>
                                                             <ul>
                                                                 <li><a href="https://cellphones.com.vn/sforum">blog
                                                                         details</a></li>
@@ -421,16 +232,20 @@
                                             <input type="text">
                                         </div>
                                         <div class="col-12 mb-30">
-                                            <label for="country">country <span>*</span></label>
+                                            <label for="country">Provinsie/City <span>*</span></label>
                                             <select name="cuntry" id="country">
-                                                <option value="2">Việt Nam</option>
-                                                <option value="3">Algeria</option>
-                                                <option value="4">Afghanistan</option>
-                                                <option value="5">Ghana</option>
-                                                <option value="6">Albania</option>
-                                                <option value="7">Bahrain</option>
-                                                <option value="8">Colombia</option>
-                                                <option value="9">Dominican Republic</option>
+                                                <option value="2">Hà Nội</option>
+                                                <option value="3">Bắc Ninh</option>
+                                                <option value="4">Hà Nam</option>
+                                                <option value="5">Bắc Kan</option>
+                                                <option value="6">Hải Dương</option>
+                                                <option value="7">Hà Tĩnh</option>
+                                                <option value="8">Hưng Yên</option>
+                                                <option value="9">Lào Cai</option>
+                                                <option value="10">Hải Phòng</option>
+                                                <option value="11">Sơn La</option>
+                                                <option value="12">Quảng Ninh</option>
+                                                <option value="13">Quảng Ngãi</option>
 
                                             </select>
                                         </div>
@@ -511,7 +326,7 @@
 
                                         <div id="collapsedefult" class="collapse one" data-parent="#accordion">
                                             <div class="card-body1">
-                                                <p>Pay via Vnpay; you can pay with your credit card if you don’t have a
+                                                <p>Pay via Vnpay; you can pay with your credit card if you don't have a
                                                     Vnpay account.</p>
                                             </div>
                                         </div>
@@ -542,12 +357,9 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer_widget">
                             <h3>About us</h3>
-                            <p>Introducing CellPhonS, your ultimate destination for all things mobile. We pride
-                                ourselves on offering a wide range of smartphones, from the latest models to
-                                budget-friendly options, ensuring there's something for everyone. Browse through our
-                                user-friendly interface to discover cutting-edge technology, competitive prices, and
-                                exceptional customer service. Join the CellPhonS community today and experience the
-                                convenience of shopping for your next mobile device hassle-free!</p>
+                            <p>CellPhonS - your ultimate destination for mobile phones. From the latest models to
+                                budget-friendly options, with a user-friendly interface and dedicated customer service.
+                                Explore today!</p>
                             <div class="footer_widget_contect">
                                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Số 10, P. Tạ Quang Bửu, Bách
                                     Khoa, Hai Bà Trưng, Hà Nội</p>
